@@ -1,34 +1,54 @@
 <div align="center">
 
-<img src="assets/readme/hero.gif" width="1200" alt="THERMOMETER WIDGETS — rotating 3D geometry" />
+<img src="assets/readme/hero.gif" width="1200" alt="THERMOMETER WIDGETS: a pair of sculpted thermometer instruments" />
 
 **[English](README.md) · [فارسی](README.fa.md)**
 
-<img src="assets/readme/identity.svg" width="1200" alt="learning / English and Persian documentation" />
-
 </div>
 
-# THERMOMETER WIDGETS
+<div dir="rtl">
+
+# 🌡️ THERMOMETER WIDGETS
 
 کلاس دماسنج قابل استفاده مجدد Tkinter با نمایش دو پنل مستقل.
 
 [GitHub](https://github.com/MOHAMMADREZAABEDINPOOR/thermometer) · [PIMX / Profile](https://github.com/MOHAMMADREZAABEDINPOOR) · [بنر ثابت](assets/readme/hero.png)
 
-## امکانات
+| نمای کلی | جزئیات |
+|:---|:---|
+| 🌡️ تجربه | تمرین آموزشی / آرشیو کد |
+| 🧰 فناوری | `Python` |
+| 🌐 زبان راهنما | [English](README.md) · [فارسی](README.fa.md) |
 
-- کلاس قابل استفاده مجدد th
-- انتخاب دما با Spinbox
-- نمایش ستونی رنگی
+[✨ امکانات](#امکانات) · [🚀 شروع کار](#شروع-کار) · [⚙️ تنظیمات](#تنظیمات) · [🌍 استقرار](#استقرار)
 
-## پشته فنی
+---
+
+<a id="امکانات"></a>
+
+## ✨ امکانات
+
+| بخش | قابلیت موجود |
+|:---|:---|
+| ⚡ روند کار | کلاس قابل استفاده مجدد th |
+| ⚡ روند کار | انتخاب دما با Spinbox |
+| 🎨 تصویر | نمایش ستونی رنگی |
+
+<a id="پشته-فنی"></a>
+
+## 🧰 پشته فنی
 
 | ابزار | نسخه یا منبع |
 |---|---|
 | Python | `standard library / source imports` |
 
-## شروع کار
+<a id="شروع-کار"></a>
+
+## 🚀 شروع کار
 
 Python 3 و محیط دسکتاپ برای پروژه‌های Tkinter/Turtle؛ Tkinter از اجزای نصب Python است و با pip نصب نمی‌شود. برای وابستگی‌های قدیمی از نسخه Python سازگار استفاده کنید.
+
+<div dir="ltr">
 
 ```bash
 git clone https://github.com/MOHAMMADREZAABEDINPOOR/thermometer.git
@@ -37,15 +57,23 @@ cd thermometer
 python "thermometer1.py"
 ```
 
-## تنظیمات
+</div>
+
+<a id="تنظیمات"></a>
+
+## ⚙️ تنظیمات
 
 فایل محیط استاندارد تعریف نشده است. برای تمرین‌های مستقل تنظیم خارجی لازم نیست؛ اگر در کد ثابت‌های سرویس یا مسیر وجود دارد، آن‌ها را پیش از اجرا بررسی کنید.
 
-## استفاده
+<a id="استفاده"></a>
+
+## 🎯 استفاده
 
 thermometer1.py را اجرا کنید؛ هر پنل Spinbox مستقل دارد.
 
-## ساختار پروژه
+<a id="ساختار-پروژه"></a>
+
+## 🗂️ ساختار پروژه
 
 | مسیر | نقش |
 |---|---|
@@ -53,31 +81,53 @@ thermometer1.py را اجرا کنید؛ هر پنل Spinbox مستقل دارد
 | [`thermometer.py`](thermometer.py) | فایل ورودی یا تنظیم پروژه |
 | [`thermometer1.py`](thermometer1.py) | فایل ورودی یا تنظیم پروژه |
 
-## فرمان‌ها و بررسی
+<a id="فرمان‌ها-و-بررسی"></a>
+
+## 🧪 فرمان‌ها و بررسی
 
 فرمان آزمون خودکار در manifest تعریف نشده است. اجرای محلی و بررسی رفتار نمونه را انجام دهید.
 
-## استقرار
+<a id="استقرار"></a>
+
+## 🌍 استقرار
 
 این تمرین محلی است و سرویس عمومی ندارد. برای تمرین وب میزبانی استاتیک کافی است.
 
-## محدودیت‌ها
+<a id="محدودیت‌ها"></a>
+
+## 📌 محدودیت‌ها
 
 عددها دستی انتخاب می‌شوند و اندازه‌گیری حسگر نیستند.
 
-## رفع مشکل
+<a id="رفع-مشکل"></a>
+
+## 🛠️ رفع مشکل
 
 - رابط غایب: برای مثال Tkinter یا Turtle از Python دسکتاپ با Tk استفاده کنید.
 - ورودی نامعتبر: قالب عدد و متن مورد انتظار فایل را وارد کنید.
 
-## مشارکت
+<a id="مشارکت"></a>
+
+## 🤝 مشارکت
 
 برای تغییر، شاخه مستقل بسازید، رفتار فعلی را بررسی کنید و توضیح روشن همراه تغییر بفرستید. اطلاعات خصوصی، خروجی build و دیتابیس محلی را commit نکنید.
 
-## مجوز
+<a id="مجوز"></a>
+
+## 📄 مجوز
 
 فایل مجوز در این نسخه موجود نیست. نمایش عمومی کد به‌تنهایی مجوز استفاده مجدد نیست؛ برای شرایط استفاده با مالک مخزن هماهنگ کنید.
 
 ---
 
 ساخته‌شده در مجموعه **PIMX** · مستندات فارسی و انگلیسی.
+
+---
+
+<div align="center">
+
+🌡️ **THERMOMETER WIDGETS** · [English](README.md) · [فارسی](README.fa.md)
+
+</div>
+
+</div>
